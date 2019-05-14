@@ -1,0 +1,407 @@
+html{
+	font-size: 12px;
+}
+body{
+	font-family: 'Roboto', sans-serif;	
+	margin: 0;
+	padding: 0;
+}
+
+.home-header{
+	background: linear-gradient(
+          rgba(11, 28, 45, 0.7), 
+          rgba(11, 28, 45, 0.7)
+        ),  url(../img/header-bg.png) no-repeat center ;
+	margin-bottom: 7.500vw;
+}
+nav{
+	background: rgba(0,0,0,0.4);
+	/*margin-bottom: 17vw;*/
+}
+ul, li, a{
+	list-style: none !important;
+	text-decoration: none !important;
+	margin: 0;
+	padding: 0;
+}
+.upper{
+	text-transform: uppercase;
+}
+.navbar-nav a{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 900;
+	border-radius: 5px;
+	margin-left: 1.400vw;
+
+}
+.navbar-nav a:hover{
+	background: rgba(255, 255, 255, 0.2);
+}
+.navbar-text{
+	font-weight: 900;
+	font-size: 1.3333333333333333rem;
+	color: #fff;
+}
+.upper-white{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+}
+.banner-top{
+	font-size: 5VW;
+	letter-spacing: 3vw;
+}
+.bannder-sub{
+	font-size: 3vw;
+	letter-spacing: 1vw;
+}
+.banner{
+	margin-top:17vw;
+	margin-bottom: 13.7vw;
+}
+.arrow{
+	margin-bottom: 7.333vw;
+}
+.benefits h2{
+	font-size: 3vw;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.3vw;
+	margin-bottom: 5.833vw;
+}
+.benefit{
+	background: #f4f4f4;
+	height: 360px;
+	margin-bottom: 15px;
+
+}
+.benefit h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	padding-top: 1.5vw;
+}
+.benefit p{
+	padding: 0.5vw;
+	font-size: 17px;
+}
+.benefit-img{
+	padding-top: 3vw;
+
+}
+.benefit h2:after{
+	content: "";
+	display: block;
+	background: #c6c6c6;
+	height: 1px;
+	width: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+.migration{
+	background:linear-gradient(
+          rgba(25, 48, 69, 0.85),
+          rgba(25, 48, 69, 0.85)
+        ),   url(../img/sand-bg.png);
+}
+.migration-heading{
+	font-size: 3.167vw;
+	padding-top:2.625vw;
+
+}
+.migration-cite{
+	margin-top: 1vw;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 100;
+}
+.cite-author{
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+.migration-banner-top{
+	font-size: 19px;
+	letter-spacing: 1.5px;
+	font-weight: 100;
+}
+.migration-banner-sub{
+	font-size: 23px;
+	letter-spacing: 1.5px;
+	font-weight: 900;
+	margin-top: 20px;
+}
+.migration-banner{
+	margin-top: 2.750vw;
+	padding: 3.550vw 2.500vw;
+	border: 1px dashed white;
+
+}
+.migrate-answer{
+	margin-top: 2.500vw;
+}
+.answer-top{
+	font-size: 37px;
+}
+.answer-sub{
+	font-size: 18px;
+	font-weight: 100;
+}
+.migration-button{
+	font-size: 15px;
+	padding: 20px 35px;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-top: 2.5vw;
+	margin-bottom: 4vw;
+}
+.service{
+	background: url(../img/service-bg.png) repeat-x 0px 140px ;
+}
+.service-heading{
+	font-size: 2.333vw;
+	font-weight: 900;
+	margin-top: 6vw;
+	letter-spacing: 0.2vw;
+	text-transform: uppercase;
+}
+.service-banner{
+	margin-top: 7.500vw;
+	background: #f4f4f4;
+
+}
+.service-banner-text{
+	padding: 0 35px;
+	font-size: 17px;
+	padding-bottom: 43px;
+}
+.service-banner h2{
+	padding-top: 70px;
+}
+.sevice-sub-banner{
+	margin-top: 6px;
+}
+.sevice-sub-banner-text{
+	padding: 43px 23px;
+	font-size: 17px;
+	background: #f4f4f4;	
+}
+.service-button{
+	font-size: 15px;
+	padding: 20px 35px;
+	border: 2px solid #23aae2;
+	border-radius: 5px;	
+	color: #23aae2;
+	margin-top: 3vw;
+	margin-bottom: 5.250vw;
+}
+.feedback-heading{
+	font-size: 2.1vw;
+	letter-spacing: 0.300vw;
+	margin-top: 89px;
+}
+
+.feedback-banner{
+	margin-top: 3.350vw;
+	-webkit-box-shadow: 8px 10px 4px -4px rgba(233,233,233,1);
+	-moz-box-shadow: 8px 10px 4px -4px rgba(233,233,233,1);
+	box-shadow: 8px 10px 4px -4px rgba(233,233,233,1);
+}
+.feedback-banner-name{
+	font-size: 16px;
+}
+.feedback-banner-name{
+	margin-left: 6.350vw;
+}
+.feedback-banner-link{
+	margin-left: 2.250vw;
+}
+.feedback-banner-trasfer{
+	margin-left: 7.350vw;
+	padding-right: 20px;
+}
+.feedback-banner-text{
+	position: relative;
+	font-size: 14px;
+	font-weight: 100;
+	font-style: italic;
+	margin-top: 27px;
+	padding: 0 42px 47px 7.350vw;
+}
+.feedback-img{
+	border-radius: 500px;
+	position: absolute;
+	left:-70px;
+	bottom: 30px;
+}
+
+
+.circle{
+	display: block;
+	width:20px;
+	height: 20px;
+	border: 1px dashed #23aae2;
+	border-radius: 50px;
+	margin-right:8px;
+	margin-top: 2.550vw;
+}
+.circle:hover{
+	background: #23aae2;	
+}
+.questin-form-heading h1{
+	font-size: 2.100vw;
+	letter-spacing:0.3vw;
+	font-weight: 900;
+	margin-top: 4.200vw;
+}
+.questin-form-display{
+	background: #11b2f5;
+	margin-top: 4.3vw;
+}
+.questin-form-subheading{
+	font-weight: 100;
+	letter-spacing: 0.5px;
+	font-size:21px;
+}
+.questin-form-arrow img{
+	margin-top: 35px;
+}
+.form-area{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #11b2f5;
+	border: 1px solid white;
+	width: 100%;
+	height: 60px;
+	padding-left: 36px;
+
+}
+.question-form{
+	margin-top: 30px;
+	margin-bottom: 84px;
+}
+.question-form-btn{
+	width: 100%;
+	height: 60px;
+	background-color: #11b2f5;
+	font-size: 15px;
+	border: 2px solid white;
+}
+input:hover::placeholder { 
+	color: white; 
+}
+
+footer{
+background: #11b2f5;
+}
+.footer-phone-number{
+	font-size: 16px;
+	font-weight: 900;
+}
+.private-policy,
+.footer-rights{
+	font-size: 14px;
+}
+.footer-logo img{
+	margin: 12px 0;
+}
+
+
+
+
+/*CONTACTS*/
+.bottom-dashed{
+	border-bottom: 2px dotted white;
+}
+.contacts-heading{
+margin-top:4vw;
+font-size: 51px;
+letter-spacing: 0.600vw;
+}
+.contacts-header{
+	background: linear-gradient(
+          rgba(47, 104, 128, 0.7), 
+          rgba(11, 28, 45, 0.7)
+        ),  url(../img/header-bg.png) no-repeat center ;
+	position: relative;
+}
+.contacts-header-arrow{
+	margin-top: 40px;
+	margin-bottom: 132px;
+}
+.contacts-main{
+	background: #f7f7f7;
+	position: relative;
+	height: 655px;
+}
+.contacts-form-block{
+	background: #fff;
+	position: absolute;
+	width: 1030px;
+	top:-88px;
+}
+.contacts-form-text{
+	font-size: 17px;
+	padding-top: 54px;
+}
+.contacts-form-sizer{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 900;
+}
+.phone-numbers-var1{
+	font-size: 16px;
+}
+.contacts-variation-mail-adress,
+.contacts-variation-skype-adress{
+	font-size: 17px;
+}
+.contacts-variation{	
+	margin-left: 5.650vw;
+}
+.contacts-variation-E-mail,
+.contacts-variation-skype{
+	margin-top: 51px;
+}
+.contacts-variation img{
+margin-right: 36px;
+}
+.contacts-form{
+	background: #11b2f5;
+}
+.contacts-form-wrapper{
+	margin-top: 56px;
+}
+
+.contacts-questin-form-heading h1{
+
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+.contacts-questin-form-subheading{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+.contacts-form-area{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #11b2f5;
+	border: 1px solid white;
+	width: 100%;
+	height: 50px;
+	padding-left: 36px;
+}
+.contacts-form{
+	padding: 40px;
+	margin-left: 4.400vw;
+	margin-right: 4vw;
+	margin-bottom: 62px;
+}
+footer{
+
+}

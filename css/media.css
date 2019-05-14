@@ -1,0 +1,223 @@
+@media screen and (max-width: 1600px){
+
+
+
+
+}
+
+@media screen and (max-width: 1215px){
+.navbar-nav a{
+	margin-left: 0.1vw;
+}
+.contacts-form-block{
+	position: static;
+	width: 100%;
+	top:0;
+}
+.contacts-main{
+	position: static;
+	height: 100%;
+}
+
+
+}
+@media screen and (max-width: 991px){
+.banner-top{
+	font-size: 7VW;
+	letter-spacing: 3vw;
+}	
+.benefits h2{
+	font-size: 4vw;
+}
+.bannder-sub{
+	font-size: 4vw;	
+}
+.migration-heading{
+	font-size: 4.167vw;
+	padding-top:2.625vw;
+}
+.service-heading{
+	font-size: 3.333vw;	
+}
+.feedback-heading{
+	font-size: 4.1vw;
+	
+}
+.questin-form-heading h1{
+	font-size: 3.100vw;	
+}
+.navbar-text{
+	display: none;
+}	
+.contacts-form-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contacts-variation{
+	margin-bottom: 30px;	
+}
+.contacts-form-block{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+.contacts-main{
+	background: #fff;
+}
+.banner-top{
+	font-size: 8VW;
+	letter-spacing: 3vw;
+}	
+.benefits h2{
+	font-size: 5vw;
+}
+.bannder-sub{
+	font-size: 5vw;
+	
+}
+.migration-heading{
+	font-size: 5.167vw;
+	padding-top:2.625vw;
+}
+.service-heading{
+	font-size: 5.333vw;	
+}
+.feedback-heading{
+	font-size: 4.1vw;	
+}
+.questin-form-heading h1{
+	font-size: 4.100vw;	
+}
+.feedback-img{
+	border-radius: 500px;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 30px;
+	align-self: center;
+	margin-left: 50%;
+}
+.feedback-headwrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.feedback-banner-text{
+	text-align: center;
+}
+.footer-rights,
+.private-policy{
+	display: none;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 576px){
+.banner-top{
+	font-size: 9VW;
+	letter-spacing: 3vw;
+}	
+.hide-sm{
+	display: none;
+}
+.benefits h2{
+	font-size: 6vw;
+}
+.bannder-sub{
+	font-size: 6vw;
+	
+}
+.migration-heading{
+	font-size: 6.167vw;
+	padding-top:2.625vw;
+}
+.service-heading{
+	font-size: 6.333vw;	
+}
+.feedback-heading{
+	font-size: 6.1vw;	
+}
+.questin-form-heading h1{
+	font-size: 5.100vw;	
+}
+.service{
+background: url(../img/service-bg.png) repeat-x center bottom;
+}
+
+
+}
+
+
+@media screen and (max-width: 320px){
+	html{
+		box-sizing: content-box;
+	}
+
+
+.banner-top{
+	font-size: 11VW;
+	letter-spacing: 3vw;
+}
+.benefits h2{
+	font-size: 7vw;
+}
+.bannder-sub{
+	font-size: 7vw;
+	
+}
+.migration-heading{
+	font-size: 7.167vw;
+	padding-top:2.625vw;
+}
+.service-heading{
+	font-size: 7.333vw;	
+}
+.service{
+background: url(../img/service-bg.png) repeat-x center bottom;
+}
+.feedback-heading{
+	font-size: 6.1vw;	
+}
+.questin-form-heading h1{
+	font-size: 8.100vw;	
+}
+.contacts-form{
+	padding:10px;
+	margin-bottom: 30px;	
+}	
+.contacts-form-area{	
+	font-size: 10px;
+	height: 40px;
+	padding-left: 15px;
+	width: 90%;	
+}
+.contacts-btn{
+	width: 90%;
+	height: 35px;
+	font-size: 12px;
+}
+.contacts-heading{
+margin-top:11vw;
+font-size: 51px;
+letter-spacing: 0.600vw;
+}
+
+
+
+
+
+}
